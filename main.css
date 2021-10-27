@@ -4,11 +4,14 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     background-size: cover;
     color: rgb(66, 5, 90);
     font-family: Arial, Helvetica, sans-serif;    
+    margin-top: 100px;
+    margin-left: 0px;
 }
 .navbar{ /* detta är för bakgrunden i navigationbaren överst på sidan */
-    background-color: rgb(66, 5, 90);    
+    background-color: rgb(66, 5, 90);
     width: 100%;
     height: 60px;
+    padding: 0rem;
     top: 0;
     position: fixed;
 }
@@ -21,13 +24,26 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     color: pink;
     background-color: black;
 }
-#nav ul{ /* detta är stylen för oordnad listan. Den ska vara centrerad och stylen är utan prickar */
+#nav ul{ /* detta är stillsättningen för oordnad listan. Den ska vara centrerad och stylen är utan prickar */
     list-style: none;
     text-align: center;
 }
-#nav li{ /* detta är stillsättningen för själva listan. Listan hamnar bredvid varandra istället för under, padding mellan orden. */
-    display: inline-block;
-       
+#nav li{ /* detta är stillsättningen för själva listitem. Listan hamnar bredvid varandra istället för under, padding mellan orden. */
+    display: inline-block;       
     padding-right: 150px;
     font-size: 25px;
+}
+.brödtext{
+    margin-left: 20px;
+}
+.brödtext h1{ /* denna classen sätter färg på rubriker och gör den centrerad */
+    color: rgb(66, 5, 90);
+    text-align: center;
+}
+.brödtext p{ /* denna class sätter färgen på texten och gör den centrerad */
+    color: rgb(66, 5, 90);
+    text-align: left;
+}
+.pic-border-round{ /* denna classen gör rundade kanter på bilder */
+    border-radius: 15%;
 }
