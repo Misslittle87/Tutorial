@@ -35,15 +35,17 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
 }
 .brödtext{
     margin-left: 20px;
+    text-align: center;
 }
 .brödtext h1{ /* denna classen sätter färg på rubriker och gör den centrerad */
     color: rgb(66, 5, 90);
-    text-align: center;
+    text-decoration: underline;
 }
 .brödtext p{ /* denna class sätter färgen på texten och gör den centrerad */
     color: rgb(66, 5, 90);
-    text-align: left;
+
 }
 .pic-border-round{ /* denna classen gör rundade kanter på bilder */
     border-radius: 15%;
+    border-style: solid;
 }
