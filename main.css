@@ -51,5 +51,6 @@ body{ /* typ-selektor, detta är bodyn för hela webbsidan. Här jag jag lagt in
 .pic-border-round{ /* denna klassen gör rundade kanter på bilder */
     border-radius: 15%;
     border-style: solid;
+    margin-left: 25px;
 }
 /* --- END --- */
