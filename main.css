@@ -60,12 +60,6 @@ body{ /* typ-selektor, detta är bodyn för hela webbsidan. Här jag jag lagt in
 .brödtext p{ /* denna klass sätter färgen på texten och gör den centrerad */
     color: rgb(66, 5, 90);
 }
-.brödtext2 p{
-
-}
-.brödtext3 p{
-
-}
 .pic-border-round{ /* denna klassen gör rundade kanter på bilder */
     border-radius: 15%;
     border-style: solid;
