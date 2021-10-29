@@ -11,7 +11,7 @@
     <!-- Här har jag länkat till stylesheet (CSSen) -->
     <link rel="stylesheet" href="../main.css">
 </head>
-<!-- Här börjar bodyn, själva sidan användaren ser -->
+<!-- Här börjar bodyn, själva sidan användaren ser &lt;&gt; -->
 <body>
     <header class="navbar">
         <nav id="nav">
@@ -30,22 +30,29 @@
         <h1>Vad är en tagg?</h1>
             <p>En tagg är bla bla bla</p>
             <img class="pic-border-round" src="../Bilder/doctype.png" alt="Bild på doctype">
-                <p>Detta är en deklation som ska stå överst på sidan pga ...</p>
+                <p>Detta är en deklation som ska stå överst på sidan så att webläsaren vet att det ska läsas som ett HTML dokument.</p>
             <img class="pic-border-round" src="../Bilder/html-element.png" alt="Bild på html-element">    
-                <p>Detta kallas för ett element</p>
+                <p>&lt;html&gt; kallas för en start-tagg och &lt;/html&gt; kallas för en slut-tagg.</p>
+                <p>Och allt som står innanför en start-tagg och en slut-tagg kallas för element.</p>
+                <p>HTML-taggarna behövs för att websidan ska kunna läsa in koden.</p>
             <img class="pic-border-round" src="../Bilder/html-rubriker.png" alt="Bild på html-rubriker">
-                <p>Detta kallas för en header-tagg, som gör rubriker</p>
+                <p>Detta kallas för en header-tagg, som gör rubriker. Det finns 6 olika nivåer.</p>
             <img class="pic-border-round" src="../Bilder/kod-html-rubriker.png" alt="Bild på kod till html-rubriker">
                 <p>Såhär skriver man koden i programmet</p>
             <img class="pic-border-round" src="../Bilder/radbrytning.png" alt="Bild på paragraf och radbrytning">
                 <p>Här har vi en paragraf med radbrytning</p>
+                <p>En paragraf är ett textstycke och en radbrytning &lt;br&gt;<br> gör att vi får raderna under varandra istället för en enda lång rad.</p>
             <img class="pic-border-round" src="../Bilder/a-href-element.png" alt="Bild på en länk">
-                <p>Här är en bild på en länk</p>
+                <p>&lt;a href="Taggar.html"/&gt; är en län till denna sidan för att kunna göra flera sidor på en websida.</p>
+                <p>För att få en hyperlän till en annan sida så skriver man &lt;a href="www.tucsweden.se"&gt;Hyperlänk&lt;/a&gt;</p>
+                <a href="https://tucsweden.se/">Hyperlänk till TUC</a><br>
+
             <img class="pic-border-round" src="../Bilder/image-och-alt.png" alt="Bild på länk till bild">
                 <p>Bild på länk till bild</p>
             <img class="pic-border-round" src="../Bilder/kommentar.png" alt="Bild på hur man kommenterar">
-                <p>Bild på hur man kommenterar. Så här kommenaterar man i CSSen /*kommentar*/</p>
+                <p>Bild på hur man kommenterar. Så här kommenaterar man i CSSen - /*kommentar*/</p>
             <img class="pic-border-round" src="../Bilder/div-och-span.png" alt="Bild på en div-klass och ett span-element">
-                <p>Bils på div och span</p>
-    </div> 
+                <p>Div är en divider och delar in texten i stycken. Denna sätter man ofta med en klass för att göra en container.</p>
+                <p>Span är en inline-container som används för att stillsätta enskilda ord eller meningar.</p>
+            </div> 
 </body>
