@@ -28,15 +28,24 @@
         <p>CSS kan med fördel användas tillsammans med HTML.</p>
         <p>Det finns 3 olika sätt att använda CSSen. Det finns extern, intern och inline.</p>
         <img class="pic-border-round" src="../Bilder/extern-css.png" alt="Bild på extern CSS">
-            <p>Detta är extern CSS som måste länkas. Här har vi även egenskaper</p>
+            <p>Detta är extern CSS som måste länkas med en separat CSS-fil.</p>
+            <p>Det bli mycket enklare att hålla reda på din HTML kod och din CSS-kod.</p>
         <img class="pic-border-round" src="../Bilder/intern-css.png" alt="Bild på intern CSS">
-            <p>Detta är intern CSS som måste skriva innanför style-taggar och har prioritet före extern CSS</p>
+            <p>Detta är intern CSS som måste skriva innanför &lt;style&gt;-taggar i &lt;head&gt;-taggen</p>
         <img class="pic-border-round" src="../Bilder/div-och-span.png" alt="Bild på inline CSS">
-            <p>Detta är hur det kan se ut vid inline CSS och har prioritet före intern CSS</p>
-            <p>När är det bra att använda vad?</p>
+            <p>Detta är hur det kan se ut vid inline CSS. Man använder &lt;span&gt;-taggen för att göra en stillsättning av enstaka ord mitt i en mening.</p>
+            <p><span style="font-weight: bold;">När är det bra att använda vad?</span></p>
+        <img class="pic-border-round" src="../Bilder/selektorer.png" alt="En bild på prioritetsordning">
+            <p>Detta är i vilken prioritetsordning HTML läser in koden. !important har ALLTID prioritet.</p>
+            <p>Men koden läses in inline - intern - extern i den ordningen.</p>
+            <p>Det bäst är att ha stillsättningen i en extern fil. Det blir mycket lättare att hitta i den.</p>
         <img class="pic-border-round" src="../Bilder/arv-html.png" alt="Bild på arv i html">
         <img class="pic-border-round" src="../Bilder/arv-css.png" alt="Bild på arv i CSS">
-            <p>När man pratar om arv</p>
+            <p>Olika element kan ärva från föräldraelementet.</p>
+            <p>I detta exemplet så är all text inom classen "brödtext" centrerad och har en marginal från vänster med 20 pixlar.</p>
+            <p>H1an ärver från brödtexten, men även fått en egen text-dekoration som är understruken.</p>
+            <p>P har ärvt från "brödtext" men inte från H1 och är endast lila.</p>
+            <p>Hade jag sagt en färg i tex &lt;body&gt; så hade allt ärvts fårn bodyn.</p>
     </div>
         <!-- ärvd CSS tex att man sätter färgen i bodyn så ärver alla element i det blocket från föräldraelementet-->
 </body>
