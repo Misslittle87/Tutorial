@@ -23,7 +23,28 @@
             </ul>
         </nav>
     </header>
-    <p>Insert FORMULÄR här!</p>
-    <!-- formulär, labels, inmatningsfält -->
+    <img class="pic-border-round" src="../Bilder/formulär.png" alt="Bild på formulär">
+    <form onsubmit="alert('Formulär skickat');">
+        <lable for="user">Användarnamn:</lable><br>
+        <input type="text" id="user" name="user" value="Username"><br>
+        <label for="pass">Lösenord:</label><br>
+        <input type="password" id="pass" name="pass"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <br>
+    <img class="pic-border-round" src="../Bilder/radioknappar.png" alt="Bild på radioknappar">
+    <form action="/serverskript.asp">
+    <p>Vänligen ange din ålder:</p>
+    <input type="radio" id="age1" name="age" value="30">
+    <label for="age1">0 - 30</label><br>
+    <input type="radio" id="age2" name="age" value="60">
+    <label for="age2">31 - 60</label><br>  
+    <input type="radio" id="age3" name="age" value="100">
+    <label for="age3">61 - 100</label><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+
     <!-- input-element (text, password, submit, reset, radio, number, textarea) -->
 </body>
