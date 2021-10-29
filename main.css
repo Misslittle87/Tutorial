@@ -7,6 +7,7 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     margin-top: 100px;
     margin-left: 0px;
 }
+/* Navbarens stylesheet*/
 .navbar{ /* detta är för bakgrunden i navigationbaren överst på sidan */
     background-color: rgb(66, 5, 90);
     width: 100%;
@@ -15,24 +16,26 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     top: 0;
     position: fixed;
 }
-.nav a{ /* här sätter jag färg på texten i navigationsbaren och hur stor marginal till överst på sidan */
+#nav a{ /* här sätter jag färg på texten i navigationsbaren och hur stor marginal till överst på sidan */
    text-decoration: none;
    color: grey;
    margin-top: 10px;
 }
-.nav a:hover{ /* detta är färgen texten får när man håller med musen över texten på navigationsbaren */
+#nav a:hover{ /* detta är färgen texten får när man håller med musen över texten på navigationsbaren */
     color: pink;
     background-color: black;
 }
-.nav ul{ /* detta är stillsättningen för oordnad listan. Den ska vara centrerad och stylen är utan prickar */
+#nav ul{ /* detta är stillsättningen för oordnad listan. Den ska vara centrerad och stylen är utan prickar */
     list-style: none;
     text-align: center;
 }
-.nav li{ /* detta är stillsättningen för själva listitem. Listan hamnar bredvid varandra istället för under, padding mellan orden. */
+#nav li{ /* detta är stillsättningen för själva listitem. Listan hamnar bredvid varandra istället för under, padding mellan orden. */
     display: inline-block;       
     padding-right: 150px;
     font-size: 25px;
 }
+/* --- END --- */
+/* Texternas och bildernas stylesheet*/
 .brödtext{
     margin-left: 20px;
     text-align: center;
@@ -49,3 +52,4 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     border-radius: 15%;
     border-style: solid;
 }
+/* --- END --- */
