@@ -1,5 +1,5 @@
 /* kommentar */
-body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilden, färg på texten. */
+body{ /* typ-selektor, detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilden, färg på texten. */
     background-image: url("Bilder/bakgrund-html.jpg");
     background-size: cover;
     color: rgb(66, 5, 90);
@@ -8,7 +8,7 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     margin-left: 0px;
 }
 /* Navbarens stylesheet*/
-.navbar{ /* detta är för bakgrunden i navigationbaren överst på sidan */
+.navbar{ /* klass-selektor, detta är för bakgrunden i navigationbaren överst på sidan */
     background-color: rgb(66, 5, 90);
     width: 100%;
     height: 60px;
@@ -16,7 +16,7 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     top: 0;
     position: fixed;
 }
-#nav a{ /* här sätter jag färg på texten i navigationsbaren och hur stor marginal till överst på sidan */
+#nav a{ /* id-selektor, här sätter jag färg på texten i navigationsbaren och hur stor marginal till överst på sidan */
    text-decoration: none;
    color: grey;
    margin-top: 10px;
@@ -40,15 +40,15 @@ body{ /* detta är bodyn för hela webbsidan. Här jag jag lagt in bakgrundbilde
     margin-left: 20px;
     text-align: center;
 }
-.brödtext h1{ /* denna classen sätter färg på rubriker och gör den centrerad */
+.brödtext h1{ /* denna klassen sätter färg på rubriker och gör den centrerad */
     color: rgb(66, 5, 90);
     text-decoration: underline;
 }
-.brödtext p{ /* denna class sätter färgen på texten och gör den centrerad */
+.brödtext p{ /* denna klass sätter färgen på texten och gör den centrerad */
     color: rgb(66, 5, 90);
 
 }
-.pic-border-round{ /* denna classen gör rundade kanter på bilder */
+.pic-border-round{ /* denna klassen gör rundade kanter på bilder */
     border-radius: 15%;
     border-style: solid;
 }
